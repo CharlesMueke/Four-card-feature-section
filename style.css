@@ -1,0 +1,140 @@
+body{
+    font-family: "Poppins";
+    background-color: rgb(250, 250, 248);
+}
+
+.word{
+    text-align: center;
+    margin-top: 2%;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 23px;
+    color: rgb(97, 96, 94);
+    margin-bottom: -1%;
+}
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+p{
+    color: rgb(150, 153, 153);
+    font-size: 15px;
+}
+.container{
+    column-count: 3;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 100%;
+}
+.first{
+    box-sizing: border-box;
+    border: 3px solid;
+    border-color:hsl(180, 62%, 55%) white white ;
+    margin-top: 9%;
+    box-shadow: 0px 0px 10px 3px rgb(205, 200, 200);
+    transform: translate(-20%, -20%);
+    width: 30%;
+    margin-bottom: 1%;
+    margin-left: -2%;
+}
+.second {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 3px solid;
+    border-color: hsl(0, 78%, 62%) white white;
+    box-shadow: 0px 0px 10px 3px rgb(205 200 200);
+    width: 79%;
+    margin-top: -15%;
+    margin-bottom: 6%;
+    height: 70%;
+    margin-left: -7%;
+
+}
+
+.third {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 3px solid;
+    border-color: hsl(34, 97%, 64%) white white;
+    box-shadow: 0px 0px 10px 3px rgb(205 200 200);
+    width: 79%;
+    margin-bottom: 0%;
+    height: 70%;
+    margin-left: -7%;
+
+}
+
+.second h3{
+    padding-top: 5%;
+}
+.third h3{
+    padding-top: 5%;
+}
+.fourth {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 3px solid;
+    border-color: hsl(212, 86%, 64%) white white;
+    box-shadow: 0px 0px 10px 3px rgb(205 200 200);
+    margin-top: 6%;
+    width: 31%;
+    margin-bottom: 4%;
+    margin-left: -8%;
+    height: -1%;
+}
+img{
+    float: right;
+    margin-top: 6%;
+    margin-right: 7%;
+    width: 13%;
+}
+h3{
+margin-left: 5%;
+}
+.container p{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.attribution { font-size: 11px; text-align: center;margin-top: 9%; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width:390px){
+.container{
+    display: grid;
+    padding-top: 15%;
+}
+.first{
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 100%;
+}
+.second{
+    margin-top: 0%;
+    margin-left: -10%;
+    width: 100%;
+    margin-bottom: 4%;
+    height: 65%;
+}
+.third{
+    width: 100%;
+    margin-left: -10%;
+    height: 64%;
+}
+.fourth{
+    margin-top: 45%;
+    margin-left: -10%;
+    width: 100%;
+}
+br{
+    content: '';
+}
+br::after{
+    content: '';
+}
+}
